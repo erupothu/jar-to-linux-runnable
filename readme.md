@@ -1,6 +1,8 @@
-> cd Desktop
+> cd jar-to-linux-runnable
 
-> cp chatbot.jar
+> mvn clean install
+
+> cd target
 
 > nano exestub.sh
 ```
