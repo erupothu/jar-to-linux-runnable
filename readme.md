@@ -1,5 +1,7 @@
 > cd Desktop
+
 > cp chatbot.jar
+
 > nano exestub.sh
 ```
 #!/bin/sh
@@ -19,5 +21,7 @@ done
 exec java $JAVA_OPT -jar $MYSELF $PROG_OPT
 ```
 > cat exestub.sh chatbot.jar > myrunnable
+
 > chmod +x myrunnable
+
 > ./myrunnable
